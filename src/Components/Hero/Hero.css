@@ -8,13 +8,13 @@
 
 .hero img{
     margin-top: 10px;
-    width:300px
+    width:200px
 }
 
 .hero h1{
     text-align: center ;
-    width: 70%;
-    font-size: 90px;
+    width: 60%;
+    font-size: 60px;
     font-weight: 600;
     cursor: default;
 
@@ -28,30 +28,34 @@
 }
 
 .hero p {
-    width: 50%;
+    width: 60%;
     text-align: center;
     line-height: 40px;
-    font-size: 24px;
+    font-size: 20px;
     cursor: default;
     transition: 0.3s;
 }
 
 .hero p:hover{
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .hero-action{
     display: flex;
     align-items: center;
     gap:25px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 50px;
 }
 
+.hero-action a {
+    text-decoration: none;
+}
+
 .hero-connect{
     background: linear-gradient(270deg , #df8908 10% , #b415ff 100%);
-    padding: 25px 25px;
+    padding: 20px 29px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.4s;
@@ -59,12 +63,14 @@
 }
 
 .hero-resume{
-    padding: 25px 75px;
+    padding: 20px 70px;
     border-radius: 50px;
     border: 2px solid #fff;
     cursor: pointer;
     transition: 0.4s;
+    font-size: 20px;
 }
+
 
 .hero-connect:hover{
     transform: scale(1.05);
