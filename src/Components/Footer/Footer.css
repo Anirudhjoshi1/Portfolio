@@ -78,6 +78,10 @@
     transition: 0.3s;
 }
 
+.footer-bottom-right p{
+    transition: 0.3s;
+}
+
 .footer-bottom-right p:hover{
     color: #b415ff;
     cursor: pointer;

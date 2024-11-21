@@ -15,7 +15,7 @@ const Hero = () => {
       "From clean code to captivating designs, I build websites that blend beauty with functionality. Let's create something extraordinary together."
       </p>
       <div className="hero-action">
-      <div className="hero-connect"><AnchorLink className='' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
+      <AnchorLink className='' offset={50} href='#contact'><div className="hero-connect">Connect With Me</div></AnchorLink>
       <a href={resume} target="blank"><div className="hero-resume">My Resume</div></a>
       </div>
     </div>
