@@ -47,7 +47,7 @@ const Contact = () => {
 
                 <div className="contact_details">
                     <div className="contact_detail">
-                        <img className='mail_icon' src={mail_icon} alt=""/><p>Anirudh.53.aj@gmail.com</p>
+                       <img className='mail_icon' src={mail_icon} alt=""/><p>Anirudh.53.aj@gmail.com</p>
                     </div>
 
                     <div className="contact_detail">

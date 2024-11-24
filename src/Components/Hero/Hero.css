@@ -85,7 +85,7 @@
     color: white;
 }
 
-@media (max-width:768px) {
+@media (max-width:810px) {
 
     .hero img{
         margin-top: 40px;
@@ -123,3 +123,4 @@
         border-radius: 40px;
     }
 }
+
