@@ -3,7 +3,6 @@ import './MyProject.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mywork_data from '../../assets/mywork_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
-import { Style } from '@mui/icons-material'
 
 
 const handleProjectClick = (url) => {
