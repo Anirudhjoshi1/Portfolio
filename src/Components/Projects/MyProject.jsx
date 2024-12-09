@@ -3,6 +3,12 @@ import './MyProject.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mywork_data from '../../assets/mywork_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
+import { Style } from '@mui/icons-material'
+
+
+const handleProjectClick = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+};
 
 const MyProject = () => {
   return (
@@ -14,7 +20,11 @@ const MyProject = () => {
 
         <div className="mywork-container">
             {mywork_data.map((work,index)=>{
-                return <img key={index} src={work.w_img} alt="" />
+                return <img 
+                 key={index}
+                 src={work.w_img}
+                 onClick={()=> handleProjectClick(work.url)} style={{ cursor: "pointer"}}
+                 alt="" />
             })}
         </div>
         <div className="mywork-showmore">
